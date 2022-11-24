@@ -24,9 +24,9 @@ public class App
     }
     
     double a,c;
-             	    Scanner sc=new Scanner(System.in);	   	 
+              	 
 	    System.out.println("Enter  Fahrenheit temperature");
-                   a=sc.nextDouble(); 
+    
 	    System.out.println("Celsius temperature is = "+celsius(a));		  	  	     
 	} 
 	static double celsius(double f)
