@@ -7,6 +7,12 @@ package es.ull.app;
 import java.util.Scanner;
 public class App 
 {
+	
+ double fahrenheit(double c)
+	{	
+	return  ((9*c)/5)+32;
+	}
+	
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
