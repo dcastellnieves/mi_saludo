@@ -22,16 +22,4 @@ public class App
         }
         System.out.println( "Parece que Rula...!" );
     }
-    
-    double a,c;
-              	 
-	    System.out.println("Enter  Fahrenheit temperature");
-    
-	    System.out.println("Celsius temperature is = "+celsius(a));		  	  	     
-	} 
-	static double celsius(double f)
-	{	
-	return  (f-32)*5/9;
-	}
-    
 }
