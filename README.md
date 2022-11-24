@@ -1,1 +1,2 @@
 # mi_saludo
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dcastellnieves_mi_saludo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dcastellnieves_mi_saludo)[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=dcastellnieves_mi_saludo)](https://sonarcloud.io/summary/new_code?id=dcastellnieves_mi_saludo)[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=dcastellnieves_mi_saludo)
