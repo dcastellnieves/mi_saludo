@@ -4,7 +4,6 @@ package es.ull.app;
  * Hello world!
  *
  */
-import java.util.Scanner;
 public class App 
 {
 	
