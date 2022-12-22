@@ -32,9 +32,6 @@ jobs:
  
       - store_test_results:
             path: target/surefire-reports
-      - store_artifacts:
-            path: target/surefire-reports
-             destination: App
    
 # Invoke jobs via workflows33
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
