@@ -26,12 +26,18 @@ jobs:
       - run:
           name: Test
           command: mvn test
-
+      
+      - store_test_results:
+            path: target/surefire-reports
+      - store_artifacts:
+            path: target/surefire-reports
+             destination: App
+   
 # Invoke jobs via workflows33
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
+  basico: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - build-and-test
+      - build-and-test    
 
