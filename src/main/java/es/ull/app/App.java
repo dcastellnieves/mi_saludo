@@ -19,6 +19,7 @@ public class App
         {
             System.out.print("12 * "+ i + " = " + 12 * i + "\n");
         }
+	double grados = fahrenheit(100);	    
         System.out.println( "Parece que Rula...!" );
     }
 }
